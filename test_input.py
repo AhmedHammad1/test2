@@ -3,6 +3,8 @@
 #
 # Python script to link between LesHouches events file+pythia+delphes+madanalysis
 ####################################################################
+path = os.getcwd()
+
 lhe = 'test_drellyan.lhe'  # put it in the same directory of the running script or 
 
 ################################################
@@ -21,7 +23,7 @@ merging = '0'  # If '0' no matching used. '1' CKKW matching '2' MLM matching
 ######################################################
 # Fo the moment delphes input card is the default CMS one for RUN-II
 Delphes = 'on'  # 'on/off' turn on or off delphes
-delphes_card = './link/delphes/delphes/cards/delphes_card_CMS.tcl'
+delphes_card = str(path)+'/link/delphes/delphes/cards/delphes_card_CMS.tcl'
 
 ################################################
 madanalysis = 'on' 
