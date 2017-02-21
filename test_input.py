@@ -3,6 +3,7 @@
 #
 # Python script to link between LesHouches events file+pythia+delphes+madanalysis
 ####################################################################
+import os
 path = os.getcwd()
 
 lhe = 'test_drellyan.lhe'  # put it in the same directory of the running script or 
