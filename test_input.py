@@ -21,6 +21,8 @@ merging = '0'  # If '0' no matching used. '1' CKKW matching '2' MLM matching
 ######################################################
 # Fo the moment delphes input card is the default CMS one for RUN-II
 Delphes = 'on'  # 'on/off' turn on or off delphes
+delphes_card = './link/delphes/delphes/cards/delphes_card_CMS.tcl'
+
 ################################################
 madanalysis = 'on' 
 
